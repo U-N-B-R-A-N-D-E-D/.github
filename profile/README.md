@@ -65,7 +65,7 @@ Byte-exact zero point · stackable axes · 78 documented axes · 75 tests · MIT
 
 **Give any agent a face.** A pixel-art companion that reacts to `agent.*` and `gateway.*` WebSocket events. Runs on a Raspberry Pi, a kiosk, a desktop dashboard, or an iframe.
 
-Node.js · WebSocket · MIT
+Node.js · WebSocket · Code MIT · assets non-commercial
 
 <p align="center">
   <b><a href="https://github.com/U-N-B-R-A-N-D-E-D/otaclaw">Repository</a></b> ·
@@ -135,7 +135,7 @@ Inferencia local, media generativa y sistemas de agentes — construidos y opera
 
 Mismo prompt, misma semilla, un número distinto. Punto cero exacto · ejes apilables · 78 ejes documentados · 75 tests · MIT.
 
-**OtaClaw** — dale cara a cualquier agente. Un compañero pixel-art que reacciona a eventos `agent.*` y `gateway.*` por WebSocket. Corre en una Raspberry Pi, un kiosco, un dashboard o un iframe.
+**OtaClaw** — dale cara a cualquier agente. Un compañero pixel-art que reacciona a eventos `agent.*` y `gateway.*` por WebSocket. Corre en una Raspberry Pi, un kiosco, un dashboard o un iframe. Código MIT; los sprites son de Konami y no son comerciales.
 
 **comfy-api-graphs** — valida antes de encolar. Helper Python sin dependencias para cargar, mutar y validar grafos API-format de ComfyUI offline: links, esquema y semillas. 142 tests.
 
