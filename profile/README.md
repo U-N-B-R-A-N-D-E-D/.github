@@ -1,8 +1,10 @@
 <div align="center">
 
-# [ U N B R A N D E D ]
+<img src="https://raw.githubusercontent.com/U-N-B-R-A-N-D-E-D/.github/main/profile/assets/unbranded.png" width="76" alt="[ U N B R A N D E D ]"/>
 
-**R&D lab @ KAFEIN**
+<h1><code>[ U N B R A N D E D ]</code></h1>
+
+<p><code>R&amp;D lab @ KAFEIN</code></p>
 
 Local-first inference, autonomous agents, and generative systems — built, run, and measured on our own hardware.
 
