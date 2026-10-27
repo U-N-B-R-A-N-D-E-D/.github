@@ -23,7 +23,7 @@ Some of it ships. Some of it stays private. The public repos are the parts that 
 ## How we work
 
 **1. Local first.**
-Inference runs on hardware we own. Client data does not leave it. Cloud is a tool for burst work, not a default.
+Inference runs on hardware we own. Sensitive data does not leave it. Cloud is a tool for burst work, not a default.
 
 **2. Measure, then believe.**
 Every claim has a date and a source. Local benchmarks are filters, not proof. The live system is the truth; when a document disagrees with it, the document gets fixed in the same commit.
@@ -167,26 +167,11 @@ S(i+1) = ACE( S(i) + N(mu, sigma), P, gamma )
 
 ---
 
-## The lab
+## Beyond the public work
 
-Most of the work is private because it runs production systems, moves money, or handles client data. The families:
+The lab also runs private infrastructure and applied research: **HAL**, our local inference platform, plus generative media pipelines and production agents. We keep them private — not because they are secret, but because they only make sense inside the systems they serve.
 
-| Family | What runs there |
-|---|---|
-| **HAL** | Local-first inference fleet: named model tiers over a GPU brain and a pool of Mac mini workers. OpenAI-compatible, no cloud inference, client data stays on our hardware. |
-| **KCA Studio** | Demand-driven GPU control plane and image pipeline for generative media — start on demand, stop on idle, account for every job. |
-| **HAL Lab** | Competition research with dated result ledgers, reusable measurement tooling, and a bias for structural levers over parameter tuning. |
-| **Punto Justo** | Legal lead intake with unauthorized-practice-of-law guardrails and CRM sync. |
-| **StockAgent** | Autonomous multi-agent trading system on dedicated hardware, with bracket orders, position monitors, and drawdown protection. |
-| **Creative Lab** | Daily generative photojournalism and forensic satellite cartography of mineral extraction. |
-| **The Aleph** | A personal brain, media library, and agent stack joined by typed one-token decision heads. |
-
-## Glossary
-
-**HAL** — the local inference platform, and the name of its universe. Runs the models behind our products.
-**KCA** — KAFEIN's full assistant system, whatever the touchpoint.
-**Moka** — the WhatsApp and Meet agent inside KCA.
-**HAL Lab** — the research wing: competitions as a source of reusable signals for client work.
+The public repos above are the parts that can stand alone.
 
 ---
 
@@ -213,7 +198,7 @@ Parte se publica. Parte se queda privada. Los repos públicos son las piezas que
 
 ## Cómo trabajamos
 
-**1. Local primero.** La inferencia corre en hardware propio. Los datos de clientes no salen de ahí. La nube es una herramienta para trabajo puntual, no el default.
+**1. Local primero.** La inferencia corre en hardware propio. Los datos sensibles no salen de ahí. La nube es una herramienta para trabajo puntual, no el default.
 
 **2. Medir, después creer.** Cada afirmación tiene fecha y fuente. Los benchmarks locales son filtros, no pruebas. El sistema vivo es la verdad; si un documento lo contradice, se corrige en el mismo commit.
 
@@ -231,16 +216,11 @@ Parte se publica. Parte se queda privada. Los repos públicos son las piezas que
 
 **Latent-Resonator — el sesgo del modelo es el instrumento.** Captura audio, lo pasa por ACE-Step, realimenta la salida y repite. Cada pasada se aleja un poco más de la fuente y acumula las tendencias tímbricas del modelo. No es un efecto en tiempo real: la inferencia tarda segundos y nunca corre en el path de audio. Módulo C++ dentro de un fork de Bespoke Synth, verificado solo en Apple Silicon, MIT.
 
-## El laboratorio
+## Más allá de lo público
 
-La mayor parte del trabajo es privada porque corre sistemas en producción, mueve dinero o maneja datos de clientes: **HAL** (flota de inferencia local), **KCA Studio** (control plane de GPU y pipeline generativo), **HAL Lab** (investigación de competencias con ledgers fechados), **Punto Justo** (intake legal con guardrails), **StockAgent** (trading autónomo), **Creative Lab** (foto-periodismo generativo y cartografía satelital forense) y **The Aleph** (cerebro personal, biblioteca y agentes con decisiones tipadas).
+El laboratorio también corre infraestructura privada e investigación aplicada: **HAL**, nuestra plataforma de inferencia local, más pipelines de media generativa y agentes en producción. Se quedan privados no porque sean secretos, sino porque solo tienen sentido dentro de los sistemas a los que sirven.
 
-## Glosario
-
-**HAL** — la plataforma de inferencia local y el nombre de su universo.
-**KCA** — el sistema completo de asistencia de KAFEIN, sin importar el punto de contacto.
-**Moka** — el agente de WhatsApp y Meet dentro de KCA.
-**HAL Lab** — el ala de investigación: competencias como fuente de señales reutilizables.
+Los repos públicos de arriba son las piezas que pueden sostenerse solas.
 
 ---
 
